@@ -1,0 +1,177 @@
+[
+  {
+    "tv_show_genre_id": 1,
+    "tv_show_id": 1,
+    "genre_id": 1
+  },
+  {
+    "tv_show_genre_id": 2,
+    "tv_show_id": 1,
+    "genre_id": 2
+  },
+  {
+    "tv_show_genre_id": 3,
+    "tv_show_id": 2,
+    "genre_id": 1
+  },
+  {
+    "tv_show_genre_id": 4,
+    "tv_show_id": 2,
+    "genre_id": 2
+  },
+  {
+    "tv_show_genre_id": 5,
+    "tv_show_id": 3,
+    "genre_id": 3
+  },
+  {
+    "tv_show_genre_id": 6,
+    "tv_show_id": 3,
+    "genre_id": 4
+  },
+  {
+    "tv_show_genre_id": 7,
+    "tv_show_id": 3,
+    "genre_id": 5
+  },
+  {
+    "tv_show_genre_id": 8,
+    "tv_show_id": 4,
+    "genre_id": 3
+  },
+  {
+    "tv_show_genre_id": 9,
+    "tv_show_id": 4,
+    "genre_id": 6
+  },
+  {
+    "tv_show_genre_id": 10,
+    "tv_show_id": 4,
+    "genre_id": 4
+  },
+  {
+    "tv_show_genre_id": 11,
+    "tv_show_id": 5,
+    "genre_id": 3
+  },
+  {
+    "tv_show_genre_id": 12,
+    "tv_show_id": 5,
+    "genre_id": 7
+  },
+  {
+    "tv_show_genre_id": 13,
+    "tv_show_id": 6,
+    "genre_id": 10
+  },
+  {
+    "tv_show_genre_id": 14,
+    "tv_show_id": 6,
+    "genre_id": 2
+  },
+  {
+    "tv_show_genre_id": 15,
+    "tv_show_id": 6,
+    "genre_id": 3
+  },
+  {
+    "tv_show_genre_id": 16,
+    "tv_show_id": 7,
+    "genre_id": 1
+  },
+  {
+    "tv_show_genre_id": 17,
+    "tv_show_id": 7,
+    "genre_id": 2
+  },
+  {
+    "tv_show_genre_id": 18,
+    "tv_show_id": 8,
+    "genre_id": 12
+  },
+  {
+    "tv_show_genre_id": 19,
+    "tv_show_id": 8,
+    "genre_id": 2
+  },
+  {
+    "tv_show_genre_id": 20,
+    "tv_show_id": 8,
+    "genre_id": 4
+  },
+  {
+    "tv_show_genre_id": 21,
+    "tv_show_id": 9,
+    "genre_id": 12
+  },
+  {
+    "tv_show_genre_id": 22,
+    "tv_show_id": 9,
+    "genre_id": 13
+  },
+  {
+    "tv_show_genre_id": 23,
+    "tv_show_id": 9,
+    "genre_id": 3
+  },
+  {
+    "tv_show_genre_id": 24,
+    "tv_show_id": 10,
+    "genre_id": 3
+  },
+  {
+    "tv_show_genre_id": 25,
+    "tv_show_id": 10,
+    "genre_id": 13
+  },
+  {
+    "tv_show_genre_id": 26,
+    "tv_show_id": 10,
+    "genre_id": 14
+  },
+  {
+    "tv_show_genre_id": 27,
+    "tv_show_id": 11,
+    "genre_id": 3
+  },
+  {
+    "tv_show_genre_id": 28,
+    "tv_show_id": 11,
+    "genre_id": 1
+  },
+  {
+    "tv_show_genre_id": 29,
+    "tv_show_id": 12,
+    "genre_id": 3
+  },
+  {
+    "tv_show_genre_id": 30,
+    "tv_show_id": 12,
+    "genre_id": 7
+  },
+  {
+    "tv_show_genre_id": 31,
+    "tv_show_id": 13,
+    "genre_id": 14
+  },
+  {
+    "tv_show_genre_id": 32,
+    "tv_show_id": 13,
+    "genre_id": 1
+  },
+  {
+    "tv_show_genre_id": 33,
+    "tv_show_id": 14,
+    "genre_id": 4
+  },
+  {
+    "tv_show_genre_id": 34,
+    "tv_show_id": 14,
+    "genre_id": 3
+  },
+  {
+    "tv_show_genre_id": 35,
+    "tv_show_id": 14,
+    "genre_id": 15
+  }
+]

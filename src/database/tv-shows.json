@@ -1,0 +1,128 @@
+[
+  {
+    "tv_show_id": 1,
+    "title": "The Mandalorian",
+    "seasons": 2,
+    "synopsis": "Ambientada tras la caída del Imperio y antes de la aparición de la Primera Orden, la serie sigue los pasos de un pistolero solitario en las aventuras que protagoniza en los confines de la galaxia, donde no alcanza la autoridad de la Nueva República.",
+    "poster": "/posters/3.jpg",
+    "trailer": "https://www.youtube.com/embed/aOC8E8z_ifw",
+    "old_id": 3
+  },
+  {
+    "tv_show_id": 2,
+    "title": "The Umbrella Academy",
+    "seasons": 1,
+    "synopsis": "La muerte de su padre reúne a unos hermanos distanciados y con extraordinarios poderes que descubren impactantes secretos y una amenaza que se cierne sobre la humanidad.",
+    "poster": "/posters/4.jpg",
+    "trailer": null,
+    "old_id": 4
+  },
+  {
+    "tv_show_id": 3,
+    "title": "Gambito de Dama",
+    "seasons": 1,
+    "synopsis": "En los cincuenta, una joven de un orfanato descubre que tiene un increíble don para el ajedrez y recorre el arduo camino a la fama mientras lucha contra las adicciones.",
+    "poster": "/posters/5.jpg",
+    "trailer": null,
+    "old_id": 5
+  },
+  {
+    "tv_show_id": 4,
+    "title": "Riverdale",
+    "seasons": 5,
+    "synopsis": "El paso a la edad adulta incluye sexo, romance, escuela y familia. Para Archie y sus amigos, también hay misterios oscuros.",
+    "poster": "/posters/2.jpg",
+    "trailer": null,
+    "old_id": 2
+  },
+  {
+    "tv_show_id": 5,
+    "title": "The Crown",
+    "seasons": 4,
+    "synopsis": "Este drama narra las rivalidades políticas y el romance de la reina Isabel II, así como los sucesos que moldearon la segunda mitad del siglo XX.",
+    "poster": "/posters/1.jpg",
+    "trailer": null,
+    "old_id": 1
+  },
+  {
+    "tv_show_id": 6,
+    "title": "Juego de tronos",
+    "seasons": "8",
+    "synopsis": "En un mundo fantástico y en un contexto medieval varias familias, relativas a la nobleza, se disputan el poder para dominar el territorio ficticio de Poniente (Westeros) y tomar el control de los Siete Reinos desde el Trono de Hierro, lugar donde el rey ejerce el poder.",
+    "poster": "/posters/9.jpg",
+    "trailer": null,
+    "old_id": 9
+  },
+  {
+    "tv_show_id": 7,
+    "title": "The Flash",
+    "seasons": "6",
+    "synopsis": "Sigue las veloces aventuras de Barry Allen, un joven común y corriente con el deseo latente de ayudar a los demás. Cuando una inesperada partícula aceleradora golpea por accidente a Barry, de pronto se encuentra cargado de un increíble poder para moverse a increíbles velocidades. Mientras Barry siempre ha tenido el alma de un héroe, sus nuevos poderes le han dado la capacidad de actuar como tal.",
+    "poster": "/posters/10.jpg",
+    "trailer": null,
+    "old_id": 10
+  },
+  {
+    "tv_show_id": 8,
+    "title": "The Big Bang Theory",
+    "seasons": "12",
+    "synopsis": "Leonard y Sheldon son dos físicos que comparten trabajo y apartamento. La serie comienza con la mudanza de Penny, su nueva y atractiva vecina, y hace hincapié en la dificultad de los físicos para relacionarse con personas fuera de su entorno para dar lugar a situaciones cómicas.",
+    "poster": "/posters/11.jpg",
+    "trailer": "https://www.youtube.com/embed/WBb3fojgW0Q",
+    "old_id": 11
+  },
+  {
+    "tv_show_id": 9,
+    "title": "Friends",
+    "seasons": "10",
+    "synopsis": "'Friends' narra las aventuras y desventuras de seis jóvenes de Nueva York: Rachel, Monica, Phoebe, Ross, Chandler y Joey. Ellos forman una unida pandilla de amigos que viven en Manhattan y que suelen reunirse en sus apartamentos o en su bar habitual cafetería, el Central Perk. A pesar de los numerosos cambios que se producen en sus vidas, su amistad es inquebrantable en la dura batalla por salir adelante en sus periplos profesionales y personales.",
+    "poster": "/posters/12.jpg",
+    "trailer": null,
+    "old_id": 12
+  },
+  {
+    "tv_show_id": 10,
+    "title": "Anne with an 'E'",
+    "seasons": "2",
+    "synopsis": "Anne Shirley es una niña huérfana que vive en un pequeño pueblo llamado Avonlea que pertenece a la Isla del Príncipe Eduardo, en el año 1890. Después de una infancia difícil, donde fue pasando de orfanato a hogares de acogida, es enviada por error a vivir con una solterona y su hermano. Cuando cumple 13 años, Anne va a conseguir transformar su vida y el pequeño pueblo donde vive gracias a su fuerte personalidad, intelecto e imaginación. Basada en la inolvidable novela.",
+    "poster": "/posters/13.jpg",
+    "trailer": null,
+    "old_id": 13
+  },
+  {
+    "tv_show_id": 11,
+    "title": "Expedientes Secretos 'X'",
+    "seasons": "11",
+    "synopsis": "Fox Mulder y Dana Scully son dos investigadores del FBI que investigan casos sin resolución ni explicación, ya sea por razones paranormales (espíritus, criaturas extrañas, aliens...) ya porque el gobierno se ha encargado de ocultar todo tipo de pruebas. Cuando Mulder tenía doce años, su hermana pequeña fue secuestrada por unos desconocidos, aunque él cree que, en realidad, fue abducida por extraterrestres. Tras acabar sus estudios en la universidad de Oxford, ingresó en la Academia de Quantico, donde se ganó el apodo de 'siniestro'",
+    "poster": "/posters/14.jpg",
+    "trailer": "https://www.youtube.com/embed/KKziOmsJxzE",
+    "old_id": 14
+  },
+  {
+    "tv_show_id": 12,
+    "title": "Chernobyl",
+    "seasons": "1",
+    "synopsis": "Sigue «la verdadera historia de una de las peores catástrofes provocadas por el hombre y habla de los valientes hombres y mujeres que se sacrificaron para salvar a Europa de un desastre inimaginable. La miniserie se centra en el desgarrador alcance del desastre de la planta nuclear que ocurrió en Ucrania en abril de 1986, revelando cómo y por qué ocurrió, además contando las sorprendentes y notables historias de los héroes que lucharon y cayeron.",
+    "poster": "/posters/15.jpg",
+    "trailer": "https://www.youtube.com/embed/s9APLXM9Ei8",
+    "old_id": 15
+  },
+  {
+    "tv_show_id": 13,
+    "title": "Westworld",
+    "seasons": "3",
+    "synopsis": "'Westworld' es una oscura odisea acerca del amanecer de la conciencia artificial y la evolución del pecado. Situada en la intersección del futuro cercano y el pasado reimaginado, explora un mundo donde cada apetito humano, sin importar cuán noble o depravado, puede ser saciado. Está ambientada en un parque temático futurista dirigido por el Dr. Robert Ford (Anthony Hopkins). Las instalaciones cuentan con androides caracterizados del western americano, y gracias a ellos los visitantes pueden introducirse en cualquier tipo de fantasía por muy oscura que sea.",
+    "poster": "/posters/16.jpg",
+    "trailer": "https://www.youtube.com/embed/qLFBcdd6Qw0",
+    "old_id": 16
+  },
+  {
+    "tv_show_id": 14,
+    "title": "Halt and Catch Fire",
+    "seasons": "4",
+    "synopsis": "Situada en los inicios de la década de 1980, un visionario ficticio, un ingeniero electrónico y una prodigiosa ingeniera, se alían a una programadora de software para confrontar con las corporaciones informáticas dominantes de la época. El Personal de la firma y sus socios de negocio, comenzarán una carrera que cambiará la cultura en el Estado de Texas, cuna de las empresas de tecnología, casi de la misma forma que lo es hoy Silicon Valey. \n Esta historia ficticia emula el trabajo realizado, en su momento, por la firma Compaq, cuando clonó el BIOS de las Computadoras Personales IBM, dando vida así al económico mercado de los clones. Mostrando también, a lo largo de sus 4 temporadas, el nacimiento de la arquitectura abierta de hardware, los videojuegos online, las salas de chat y de trueque de productos físicos, los BBS, y las primeras nubes computacionales, hasta la llegada de Internet (sin dejar afuera la guerra de los web browsers).",
+    "poster": "/posters/17.jpg",
+    "trailer": "https://www.youtube.com/embed/pWrioRji60A",
+    "old_id": 17
+  }
+]
