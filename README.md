@@ -25,22 +25,32 @@
 
 ## Introducción
 
-Este informe es parte de la resolución del tercer proyecto integrador del curso de Backend dictado por la UNTREF para el plan Argentina Programa 4.0.
+Este informe es parte de la resolución del tercer proyecto integrador del curso de Desarrollo Web Backend dictado por la UNTREF para el plan Argentina Programa 4.0.
 
 ## Inicialización del programa
 
-El único requisito para utilizar el programa en local es tener el servidor de MySQL y el entorno NodeJS instalado. Al iniciar el programa por primera vez, este se encarga de crear la base de datos, las tablas y cargarla con la información.
+El único requisito para utilizar el programa en local es tener el servidor de MySQL y el entorno NodeJS instalado. 
+
+#### Configuración:
+
+1. Crear un archivo **.env** a partir de **.env.example**.
+2. En la terminal posicionarse en el directorio raíz del proyecto, ejecutar `npm install`. Se instalarán todas las dependencias.
+3. Ejecutar el programa con el comando `npm start`.
+
+Al iniciar el programa por primera vez, este se encarga de crear la base de datos, las tablas y cargarla con la información.
 
 ## Migración de modelo NoSQL a SQL
 
-El primer requerimiento del proyecto era migrar un modelo NoSQL de una base de datos llamada "trailerflix", y convertirla en uno SQL. Los archivos se encuentran en **./database-design-files**. A continuación se explican los pasos para llevar a cabo esta tarea.   
+El primer requerimiento del proyecto era migrar un modelo NoSQL de una base de datos llamada **trailerflix**, y convertirla en uno SQL. Los archivos se encuentran en **./database-design-files**. A continuación se explican los pasos para llevar a cabo esta tarea.   
 
 ### Edición el archivo **trailerflix.json**
 
 El archivo **trailerflix.json**  tenía algunos errores:
 
 1.  Las producciones tenían el género **Ciencia Ficción** y **Sci-fi** como si fueran géneros distintos. Todas las apariciones de **Sci-fi** fueron cambiadas por **Ciencia Ficción**.
-2. Corrección de Typos: **Hechos Veríficos** (con f) y también **¿Ficción?** (con signos de preguntas).
+
+2. Corrección de Typos: **Hechos Veríficos** (con f) y también **¿Ficción?** (con signos de preguntas). De no editarlo cuando cargase la tabla **genre** estos valores tendrían su propio registro.
+
 3. Finalmente el archivo utilizado en el proyecto fue renombrado a **edited-trailerflix.json**.
 
 ### Desarrollo del modelo SQL
@@ -58,11 +68,13 @@ como lo son **géneros** y **reparto**, decidí que estos eran candidatos para s
     2. Las películas no tienen **temporadas** por lo que había que rellenar los campos con **NULL**.
     3. En el caso de agregar otro tipo de producción como por ejemplo: documental, cortometraje u otro, todas la información estaría en una sola tabla.
     
-3. Decidí considerar cada tipo de producción como una entidad y como consecuencia cada tabla tendría menos registros. Ahora por cada tipo de producción tenía que conectarla con dos tablas intermedias para luego conectarlas con los géneros y con los actores.
+3. Consideré cada tipo de producción como una entidad y como consecuencia cada tabla tendría menos registros. Cada tipo de producción tenía que conectarla con dos tablas intermedias para luego conectarlas con los géneros y con los actores.
 
 4. Se agregaron dos vistas:
     1. **trailerflix**: Muestra los datos de la misma manera a como se muestran en el archivo **edited-trailerflix.json**
     2. **production-types**: Muestra los tipos de producciones, es decir, las tablas que tienen el campo **title**.
+
+5. Finalmente el modelo de la base de datos quedó como se muestra en la siguiente imágen:
 
 ![Diagrama final de la base datos](./database-design-files/database-diagram.png "Diagrama final de la base datos")
 
@@ -102,7 +114,7 @@ const createActorsFile = productions => {
 
 ## Modelos de Sequelize
 
-Otro de los requerimientos del proyecto era utilizar la librería **Sequelize** para evitar (en lo posible) el uso del lenguaje SQL para realizar consultas a la base de datos. Esta librería tiene como concepto principal **los modelos** que son objetos javascript que representan las tablas de la base de datos. 
+Otro de los requerimientos del proyecto era la utilización de la librería **Sequelize** para evitar (en lo posible) el uso del lenguaje SQL para realizar consultas a la base de datos. Esta librería tiene como concepto principal **los modelos** que son objetos javascript que representan las tablas de la base de datos. 
 
 Todos los modelos, definición e inicialización se encuentran en el archivo ***./src/models/models.js***.
 
@@ -127,7 +139,7 @@ const Actor = sequelize.define('Actor', {
 
 Conviene tener el programa ejecutándose para ir viendo los ejemplos mientras se lee esta guía. 
 
-Notar que las producciones se encuentran ordenadas según el **id** que tenía el archivo **trailerflix**. En la base de datos se corresponde con la columna **old_id**.
+Notar que las producciones se encuentran ordenadas según el **id** que tiene el archivo **trailerflix**. En la base de datos se corresponde con la columna **old_id**.
 
 | URL                                                       | Descripción                                      |
 | --------------------------------------------------------- | ------------------------------------------------- |
